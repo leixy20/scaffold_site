@@ -1,0 +1,55 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Add this line */
+    /* Other styles, such as width, padding, etc. */
+  }
+  
+
+.carousel-slide {
+width: 100%; /* Ensure slide takes full width of its container */
+/* Other styles */
+}
+
+.carousel-img {
+max-width: 100%;
+height: auto; /* Preserve aspect ratio */
+display: block;
+margin: auto; /* This will center the image if it's not as wide as its container */
+/* Remove any specific height or width that could distort the image */
+}
+
+.carousel-button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+z-index: 2; /* Ensure buttons are above images */
+background-color: #ffffff;
+color: #333;
+border: none;
+border-radius: 50%;
+font-size: 18px;
+padding: 16px;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+
+.prev, .next {
+background-color: transparent;
+border: 1px solid #ccc;
+/* Adjust positions if needed */
+}
+
+.prev {
+left: 10px; /* Adjust this value to move the button inside the visible area */
+}
+
+.next {
+right: 10px; /* Adjust this value to move the button inside the visible area */
+}
+
+.prev:hover, .next:hover {
+border: 1px solid #333;
+transform: scale(1.1);
+}
