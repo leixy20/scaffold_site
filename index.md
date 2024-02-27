@@ -30,6 +30,8 @@ Here are some cases from our experiments, illustrating the functions of Scaffold
    <link rel="stylesheet" href="{{ "/assets/css/cases.css" | relative_url }}">
 </head>
 
+<script src="/assets/js/cases.js"></script>
+
 <div class="carousel-container">
   <div class="carousel-slide">
     <img src="assets/static/vsr_example.jpg" width="60%" alt="Image 1" class="carousel-img">
@@ -39,9 +41,6 @@ Here are some cases from our experiments, illustrating the functions of Scaffold
   <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
   <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
 </div>
-
-<script src="/assets/js/cases.js"></script>
-
 
 ## 📂 Experiments
 
