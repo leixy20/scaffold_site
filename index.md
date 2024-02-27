@@ -32,9 +32,9 @@ Here are some cases from our experiments, illustrating the functions of Scaffold
 
 <div class="carousel-container">
   <div class="carousel-slide">
-    <img src="/assets/static/vsr_example.jpg" width="60%" alt="Image 1" class="carousel-img">
-    <img src="/assets/static/wino_example_2.jpg" width="60%" alt="Image 2" class="carousel-img">
-    <img src="/assets/static/vstar_example.jpg" width="60%" alt="Image 3" class="carousel-img">
+    <img src="assets/static/vsr_example.jpg" width="60%" alt="Image 1" class="carousel-img">
+    <img src="assets/static/wino_example_2.jpg" width="60%" alt="Image 2" class="carousel-img">
+    <img src="assets/static/vstar_example.jpg" width="60%" alt="Image 3" class="carousel-img">
   </div>
   <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
   <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
