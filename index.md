@@ -14,7 +14,7 @@ Scaffold is a simple and versatile visual prompting scheme to promote the coordi
 
 **Visually**, we enhance each input image with a uniformly distributed rectangular dot matrix, where each dot is labeled with multi-dimensional Cartesian coordinates. These dots serve as visual positional anchors, while their coordinates are utilized as textual references in textual responses. 
 
-**Textually,**  we prepend textual guidance to task instructions for LMMs. This includes a brief description of the dot matrices and coordinates, accompanied by several general guidelines for their effective use. 
+**Textually**,  we prepend textual guidance to task instructions for LMMs. This includes a brief description of the dot matrices and coordinates, accompanied by several general guidelines for their effective use. 
 
 ## 🚀 Use Cases
 
@@ -88,3 +88,5 @@ Scaffold prompting combined with active perception unfolds in two phases: initia
   year={2024},
 }
 ```
+
+Acknowledgements: This website is adapted from [UA2](https://agent-force.github.io/unified-alignment-for-agents.html).
